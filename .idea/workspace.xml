@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6023abc0-47b6-4777-91f3-9df06ee85d56" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1P0aUmo5Lk6srDDGCuKSyOlYzk4" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparta.sn.controller.Main" />
+      <module name="BinarySearchTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.sn.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinarySearchTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.sn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.sn" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.sn.BinaryTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest.testSortedTreeAsc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinarySearchTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.sn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.sn" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.sn.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testSortedTreeAsc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest.testSortedTreeAscContainingNegatives" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinarySearchTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.sn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.sn" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.sn.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testSortedTreeAscContainingNegatives" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest.testSortedTreeDescContainingNegatives" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinarySearchTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.sn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.sn" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.sn.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="testSortedTreeDescContainingNegatives" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BinaryTreeTest" />
+        <item itemvalue="JUnit.BinaryTreeTest.testSortedTreeAsc" />
+        <item itemvalue="JUnit.BinaryTreeTest.testSortedTreeDescContainingNegatives" />
+        <item itemvalue="JUnit.BinaryTreeTest.testSortedTreeAscContainingNegatives" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6023abc0-47b6-4777-91f3-9df06ee85d56" name="Default Changelist" comment="" />
+      <created>1565013485076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565013485076</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BinarySearchTree$BinaryTreeTest.ic" NAME="BinaryTreeTest Coverage Results" MODIFIED="1565102493990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sparta.sn.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BinarySearchTree$BinaryTreeTest_testSortedTreeDesc.ic" NAME="BinaryTreeTest.testSortedTreeDesc Coverage Results" MODIFIED="1565095473312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sparta.sn.*</FILTER>
+    </SUITE>
+  </component>
+</project>
