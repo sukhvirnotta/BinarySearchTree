@@ -54,8 +54,7 @@ public class BinarySearchTree implements BinaryTree {
 
         if (element < currentNode.getValue()) {
             currentNode.setLeft(addElementRecursive(currentNode.getLeft(), element));
-        }
-        else if (element > currentNode.getValue()) {
+        } else if (element > currentNode.getValue()) {
             currentNode.setRight(addElementRecursive(currentNode.getRight(), element));
         }
         return currentNode;
@@ -73,10 +72,9 @@ public class BinarySearchTree implements BinaryTree {
         boolean isFound = findElementRecursive(root, value);
         log.debug("Searching for element: " + value);
         if (isFound) {
-            log.debug("Element found: "  + value);
-        }
-        else {
-            log.debug("Element not found: "  + value);
+            log.debug("Element found: " + value);
+        } else {
+            log.debug("Element not found: " + value);
         }
         return isFound;
     }
@@ -95,8 +93,7 @@ public class BinarySearchTree implements BinaryTree {
     public int getLeftChild(int element) throws ChildNotFoundException {
         try {
             return getLeftChildRecursive(root, element);
-        }
-        catch (NullPointerException e) {
+        } catch (NullPointerException e) {
             log.error("An exception occurred as left child not found for element " + element, e);
             throw new ChildNotFoundException("Left child not found for element " + element);
         }
@@ -114,8 +111,7 @@ public class BinarySearchTree implements BinaryTree {
     public int getRightChild(int element) throws ChildNotFoundException {
         try {
             return getRightChildRecursive(root, element);
-        }
-        catch (NullPointerException e) {
+        } catch (NullPointerException e) {
             log.error("An exception occurred as right child not found for element " + element, e);
             throw new ChildNotFoundException("Right child not found for element " + element);
         }
@@ -139,13 +135,13 @@ public class BinarySearchTree implements BinaryTree {
     }
 
     private int getSortedTreeAscRecursive(Node currentNode, int[] sortedTreeArray, int index) {
-        if(currentNode == null) {
+        if (currentNode == null) {
             return index;
         }
         index = getSortedTreeAscRecursive(currentNode.getLeft(), sortedTreeArray, index);
         sortedTreeArray[index] = currentNode.getValue();
         index++;
-        index  = getSortedTreeAscRecursive(currentNode.getRight(), sortedTreeArray, index);
+        index = getSortedTreeAscRecursive(currentNode.getRight(), sortedTreeArray, index);
         return index;
     }
 
@@ -159,13 +155,13 @@ public class BinarySearchTree implements BinaryTree {
     }
 
     private int getSortedTreeDescRecursive(Node currentNode, int[] sortedTreeArray, int index) {
-        if(currentNode == null) {
+        if (currentNode == null) {
             return index;
         }
         index = getSortedTreeDescRecursive(currentNode.getRight(), sortedTreeArray, index);
         sortedTreeArray[index] = currentNode.getValue();
         index++;
-        index  = getSortedTreeDescRecursive(currentNode.getLeft(), sortedTreeArray, index);
+        index = getSortedTreeDescRecursive(currentNode.getLeft(), sortedTreeArray, index);
         return index;
     }
 }
